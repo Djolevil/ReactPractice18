@@ -1,11 +1,19 @@
+import { Link } from 'react-router-dom';
+
 const Products = () => {
   return (
     <section>
       <h1>The Products Page</h1>
       <ul>
-        <li>Apple Juice</li>
-        <li>Hotdog</li>
-        <li>Bread</li>
+        <li>
+          <Link to='/products/p1'>Apple Juice</Link>
+        </li>
+        <li>
+          <Link to='/products/p2'>Hotdog</Link>
+        </li>
+        <li>
+          <Link to='/products/p3'>Bread</Link>
+        </li>
       </ul>
     </section>
   );
